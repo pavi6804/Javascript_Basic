@@ -109,3 +109,13 @@
 //console.log(El.innerText)
 //console.log(El.textContent)
 //El.innerText = 'Javascript Page'
+
+const person = {
+    fn: 'Anbu',
+    ln: 'Selvan',
+    fullName ()  {
+        return this.fn+' '+this.ln
+    }
+}
+
+console.log(person.fullName());
